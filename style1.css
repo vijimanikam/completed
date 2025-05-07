@@ -1,0 +1,31 @@
+table, td{ 
+    border: 1px solid;
+    vertical-align: bottom;
+    padding: 10px;
+    border-collapse: collapse;
+    border-width: 1px;
+}
+
+thead td{
+    text-align: center;
+}
+
+tr{
+    height: 50px;
+}
+table{
+   width: 1000px;
+}
+
+td:hover{
+    background-color: blue;
+}
+
+tr:nth-child(even){
+    background-color: blueviolet;
+}
+
+td:hover{
+    color: red;
+}
+

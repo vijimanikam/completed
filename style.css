@@ -1,0 +1,43 @@
+.content{
+    border: 2px red solid;
+    opacity: 0.5;
+    border-radius: 2px;
+}
+
+.content p{
+    background-color: brown;
+}
+
+.content, .para{
+    background-color: aqua; !important;
+}
+
+#paragraph{
+    background-color: beige;
+}
+
+.para {
+    
+    top: 0px;
+    left: 40px;  
+    height: 100px;
+    width: 100px; 
+    border: 2px red solid;
+    background-color: aqua;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+*/
+img{
+    width: 100px;
+    height: 100px;
+    float: none;
+}
+
+.disp {
+    display: block;
+    visibility: inherit;
+    width: 200px;
+    height: 40px;
+    background-color: red;
+}
